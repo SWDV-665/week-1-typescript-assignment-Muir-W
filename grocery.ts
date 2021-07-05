@@ -18,10 +18,10 @@ class GroceryItem implements Items{
 }
 
 var grocerylist : GroceryItem[] = [
-    new GroceryItem("Apples", "1", "Bag"),
-    new GroceryItem("Milk", "1", "Gallon"),
+    new GroceryItem("Apples", "3", "Bags"),
+    new GroceryItem("Milk", "2", "Gallons"),
     new GroceryItem("Soda", "1", "Can"),
-    new GroceryItem("Bread", "1", "Loaf")
+    new GroceryItem("Bread", "5", "Loaves")
 ]; 
 
 for (var item of grocerylist) {
